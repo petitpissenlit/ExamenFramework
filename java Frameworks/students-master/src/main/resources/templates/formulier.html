@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" th:action="@{/formulier}" th:object="${newproduct}">
+    <div class="form-group">
+        <label for="exampleInputNaam1">Naam</label>
+        <input type="text" class="form-control" id="exampleInputNaam1" th:field="${naam}" placeholder="naam">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputBes1">Beschrijving</label>
+        <input type="text" class="form-control" id="exampleInputBes1" th:field="${omschrijving}">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPrijs1">Prijs</label>
+        <input type="text" class="form-control" id="exampleInputprijs1" th:field="${vraagprijs}">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email" th:field="${email}">
+    </div>
+    <button type="submit" class="btn btn-primary" th:field="submit">Submit</button>
+</form>
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>

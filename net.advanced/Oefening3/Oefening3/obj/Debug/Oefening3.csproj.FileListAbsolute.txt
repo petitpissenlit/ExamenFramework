@@ -1,0 +1,10 @@
+C:\Users\Soufian\Documents\ehb\net.advanced\Oefening3\Oefening3\bin\Debug\Oefening3.exe.config
+C:\Users\Soufian\Documents\ehb\net.advanced\Oefening3\Oefening3\bin\Debug\Oefening3.exe
+C:\Users\Soufian\Documents\ehb\net.advanced\Oefening3\Oefening3\bin\Debug\Oefening3.pdb
+C:\Users\Soufian\Documents\ehb\net.advanced\Oefening3\Oefening3\obj\Debug\Oefening3.csproj.AssemblyReference.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\Oefening3\Oefening3\obj\Debug\Oefening3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\Oefening3\Oefening3\obj\Debug\Oefening3.Form1.resources
+C:\Users\Soufian\Documents\ehb\net.advanced\Oefening3\Oefening3\obj\Debug\Oefening3.csproj.GenerateResource.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\Oefening3\Oefening3\obj\Debug\Oefening3.csproj.CoreCompileInputs.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\Oefening3\Oefening3\obj\Debug\Oefening3.exe
+C:\Users\Soufian\Documents\ehb\net.advanced\Oefening3\Oefening3\obj\Debug\Oefening3.pdb

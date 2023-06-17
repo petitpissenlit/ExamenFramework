@@ -1,0 +1,49 @@
+.im1{
+    margin:50px;
+    width: 200px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.img1{
+    background-image: url(/praktijkimg/img/img1.jfif);
+}
+
+.img2{
+    background-image: url(/praktijkimg/img/img2.jpg);
+
+}
+.img3{
+    background-image: url(/praktijkimg/img/img3.jfif);
+}
+.img4 {
+    background-image: url(/praktijkimg/img/img4.jfif);
+}
+.img5 {
+    background-image: url(/praktijkimg/img/img5.jfif);
+}
+.img6 {
+    background-image: url(/praktijkimg/img/img6.jfif);
+}
+.img7 {
+    background-image: url(/praktijkimg/img/img7.jfif);
+}
+.img8 {
+    background-image: url(/praktijkimg/img/img8.jfif);
+}
+.img9 {
+    background-image: url(/praktijkimg/img/img9.jfif);
+}
+.img10 {
+    background-image: url(/praktijkimg/img/img10.jfif);
+}
+.img11 {
+    background-image: url(/praktijkimg/img/img11.jfif);
+}
+.img12{
+    background-image: url(/praktijkimg/img/img12.jfif);
+}
+.img13{
+    background-image: url(/praktijkimg/img/img13.jfif);
+}

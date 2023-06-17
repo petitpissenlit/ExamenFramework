@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+
+    background-image: url(/giphy.gif);
+    background-color: black;
+    background-blend-mode: exclusion;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+
+.header img {}
+
+.nav {
+    height: 100px;
+    width: 100%;
+
+    justify-content: center;
+
+
+}
+
+.alle3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Murecho',
+        sans-serif;
+    font-family: 'Open Sans',
+        sans-serif;
+
+    color: white;
+}

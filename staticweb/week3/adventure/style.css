@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    bottom: 0;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+}
+
+header h1 {
+    margin: 0%;
+    padding: 2em;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    background-color: rgba(238, 130, 238, 0.747);
+    color: white;
+}
+
+.finn {
+    width: 80%;
+    margin: auto;
+}
+
+.finn-flex {
+    display: flex;
+    width: 80;
+    margin: auto;
+}
+
+.finn h2 {
+    color: blue;
+    border-bottom: blue 2px solid;
+}
+
+.finn img {
+    width: 200px;
+}
+
+.finn p {
+    width: 70%;
+
+    margin-left: 10%;
+}
+
+.jake {
+    width: 80%;
+    margin: auto;
+}
+
+.jake-flex {
+
+    display: flex;
+    width: 80;
+    margin: auto;
+}
+
+.jake h2 {
+    text-align: right;
+    color: orange;
+    border-bottom: orange 2px solid;
+}
+
+.jake img {
+    width: 200px;
+}
+
+.jake p {
+    width: 70%;
+    margin-left: 10%;
+}
+
+footer {
+    background-color: pink;
+
+}
+
+footer p {
+    padding-top: 1em;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+
+}
+
+.contact {
+    text-align: center;
+    padding: 1em;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0;
+
+}

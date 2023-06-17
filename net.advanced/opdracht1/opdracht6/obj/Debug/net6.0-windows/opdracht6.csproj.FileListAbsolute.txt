@@ -1,0 +1,17 @@
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\bin\Debug\net6.0-windows\opdracht6.exe
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\bin\Debug\net6.0-windows\opdracht6.deps.json
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\bin\Debug\net6.0-windows\opdracht6.runtimeconfig.json
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\bin\Debug\net6.0-windows\opdracht6.dll
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\bin\Debug\net6.0-windows\opdracht6.pdb
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\obj\Debug\net6.0-windows\opdracht6.csproj.AssemblyReference.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\obj\Debug\net6.0-windows\opdracht6.Form1.resources
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\obj\Debug\net6.0-windows\opdracht6.csproj.GenerateResource.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\obj\Debug\net6.0-windows\opdracht6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\obj\Debug\net6.0-windows\opdracht6.AssemblyInfoInputs.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\obj\Debug\net6.0-windows\opdracht6.AssemblyInfo.cs
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\obj\Debug\net6.0-windows\opdracht6.csproj.CoreCompileInputs.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\obj\Debug\net6.0-windows\opdracht6.dll
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\obj\Debug\net6.0-windows\refint\opdracht6.dll
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\obj\Debug\net6.0-windows\opdracht6.pdb
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\obj\Debug\net6.0-windows\opdracht6.genruntimeconfig.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\opdracht1\opdracht6\obj\Debug\net6.0-windows\ref\opdracht6.dll

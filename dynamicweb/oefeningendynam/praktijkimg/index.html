@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/praktijkimg/style.css">
+</head>
+
+<body onload="setload()">
+
+    <div class="d1" id="bord">
+        <button onclick="back()" id="prev"> terug</button>
+
+        <div class="img1 img"></div>
+        <div class="img2 img"></div>
+        <div class="img3 img"></div>
+        <div class="img4 img"></div>
+        <div class="img5 img"></div>
+        <div class="img6 img"></div>
+        <div class="img7 img"></div>
+        <div class="img8 img"></div>
+        <div class="img9 img"></div>
+        <div class="img10 img"></div>
+        <div class="img11 img"></div>
+        <div class="img12 img"></div>
+        <div class="img13 img"></div>
+
+        <button onclick="next()" id="next">verder</button>
+    </div>
+
+    <div class="d2">
+        <select id="myselect" onchange="select()">
+        <div class="opt op">image1</div>
+        <div class="opt op">image2</div>
+        <div class="opt op">image3</div>
+        <div class="opt op">image4</div>
+        <div class="opt op">image5</div>
+        <div class="opt op">image6</div>
+        <div class="opt op">image7</div>
+        <div class="opt op">image8</div>
+        <div class="opt op">image9</div>
+        <div class="opt op">image10</div>
+        <div class="opt op">image11</div>
+        <div class="opt op">image12</div>
+        <div class="opt op">image13</div>
+        </select>
+    </div>
+
+    <label for="">RED</label>
+    <input type="radio" name="opt" id="red">
+    <div>
+        <label for="">BLUE</label>
+        <input type="radio" name="opt" id="red">
+    </div>
+    <div>
+        <label for="">GREEN</label>
+        <input type="radio" name="opt" id="red">
+    </div>
+    <div>
+        <input type="color" name="favcolor" id="favcolor" value="#ff0000">
+        <input onclick="color()" type="submit">
+    </div>
+
+    <script src="/praktijkimg/java.js"></script>
+</body>
+
+</html>

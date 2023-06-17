@@ -1,0 +1,17 @@
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\bin\Debug\net6.0-windows\oefening4.2.exe
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\bin\Debug\net6.0-windows\oefening4.2.deps.json
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\bin\Debug\net6.0-windows\oefening4.2.runtimeconfig.json
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\bin\Debug\net6.0-windows\oefening4.2.dll
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\bin\Debug\net6.0-windows\oefening4.2.pdb
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\obj\Debug\net6.0-windows\oefening4.2.csproj.AssemblyReference.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\obj\Debug\net6.0-windows\oefening4._2.Form1.resources
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\obj\Debug\net6.0-windows\oefening4.2.csproj.GenerateResource.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\obj\Debug\net6.0-windows\oefening4.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\obj\Debug\net6.0-windows\oefening4.2.AssemblyInfoInputs.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\obj\Debug\net6.0-windows\oefening4.2.AssemblyInfo.cs
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\obj\Debug\net6.0-windows\oefening4.2.csproj.CoreCompileInputs.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\obj\Debug\net6.0-windows\oefening4.2.dll
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\obj\Debug\net6.0-windows\refint\oefening4.2.dll
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\obj\Debug\net6.0-windows\oefening4.2.pdb
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\obj\Debug\net6.0-windows\oefening4.2.genruntimeconfig.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\oefening4.2\oefening4.2\obj\Debug\net6.0-windows\ref\oefening4.2.dll

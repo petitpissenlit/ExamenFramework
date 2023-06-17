@@ -1,0 +1,35 @@
+.flex-container {
+    display: flex;
+    background-color: pink;
+    width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: 40%;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid white;
+    margin-left: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flex-container-2 {
+    display: flex;
+    width: 100vw;
+    background-color: wheat;
+}
+
+a {
+    background-color: green;
+    color: white;
+    font-size: 25px;
+
+}
+
+.nav-right {
+    margin-left: auto;
+}

@@ -1,0 +1,267 @@
+* {
+    margin: 20px;
+    padding: 20;
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.mright20 {
+    margin-right: 20px;
+}
+
+.banner {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 {
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+    background-image: url("../img/alcoholic-alcoholic-beverages-beverage-bottleneck-373067.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.heading-1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.two-columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.two-columns div {
+    margin-bottom: 20px;
+}
+
+.tint {
+    background-color: gainsboro;
+}
+
+.mbot20 {
+    margin-bottom: 20px;
+}
+
+.two-columns-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.two-columns-image-bigger {
+    height: 250px;
+    background-image: url("../img/joseph-chan-iMxsCt2rxAQ-unsplash.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.two-columns-image-smaller {
+    height: 250px;
+    background-image: url("../img/sarthak-navjivan-iTZOPe7BpTM-unsplash.jpg");
+    background-size: cover;
+}
+
+.three-columns {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.three-columns-image {
+    height: 300px;
+    background-image: url("../img/krys-amon-CfBlMP12zT8-unsplash.jpg");
+    margin-bottom: 20px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+}
+
+.lineup-text {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.formleft {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.message {
+    width: 100%;
+}
+
+.formflex {
+    display: flex;
+    flex-direction: column;
+}
+
+.formleft {
+    flex: 1;
+}
+
+.formright {
+    flex: 1;
+}
+
+.map {
+    width: 100%;
+}
+
+footer {
+    background-color: indigo;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+.footerdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerright {
+    display: flex;
+    flex-direction: column;
+}
+
+.timelinewrapper {
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.timelineright {
+    margin-left: auto;
+}
+
+.line {
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+
+
+@media (min-width: 600px) {
+    .info {
+        flex-direction: row;
+    }
+
+    .info p {
+        margin-right: 10px;
+    }
+
+    .two-columns {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+    .two-columns div {
+        flex: 1;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .two-columns-image {
+        flex-direction: row;
+    }
+
+    .two-columns-image-bigger {
+        flex: 55%;
+        margin-right: 20px;
+    }
+
+    .two-columns-image-smaller {
+        flex: 45%;
+    }
+
+    .textcenter {
+        text-align: center;
+    }
+
+    .three-columns {
+        flex-direction: row;
+    }
+
+    .three-columns-image {
+        height: 300px;
+        background-color: hotpink;
+        margin-bottom: 20px;
+        flex: 1;
+        margin-right: 10px;
+    }
+
+    .formflex {
+        flex-direction: row;
+    }
+
+    .formleft {
+        margin-right: 20px;
+    }
+
+    .buttonflex {
+        display: flex;
+        justify-content: center;
+    }
+
+}

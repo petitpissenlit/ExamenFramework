@@ -1,0 +1,13 @@
+.wrapper {
+    width: 80%;
+    margin: auto;
+    background-color: grey;
+}
+
+.flex-header {
+    display: flex;
+}
+
+.nav-right {
+    margin-left: auto;
+}

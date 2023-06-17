@@ -1,0 +1,17 @@
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\bin\Debug\net6.0-windows\taak2.exe
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\bin\Debug\net6.0-windows\taak2.deps.json
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\bin\Debug\net6.0-windows\taak2.runtimeconfig.json
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\bin\Debug\net6.0-windows\taak2.dll
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\bin\Debug\net6.0-windows\taak2.pdb
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\obj\Debug\net6.0-windows\taak2.csproj.AssemblyReference.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\obj\Debug\net6.0-windows\taak2.Form1.resources
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\obj\Debug\net6.0-windows\taak2.csproj.GenerateResource.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\obj\Debug\net6.0-windows\taak2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\obj\Debug\net6.0-windows\taak2.AssemblyInfoInputs.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\obj\Debug\net6.0-windows\taak2.AssemblyInfo.cs
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\obj\Debug\net6.0-windows\taak2.csproj.CoreCompileInputs.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\obj\Debug\net6.0-windows\taak2.dll
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\obj\Debug\net6.0-windows\refint\taak2.dll
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\obj\Debug\net6.0-windows\taak2.pdb
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\obj\Debug\net6.0-windows\taak2.genruntimeconfig.cache
+C:\Users\Soufian\Documents\ehb\net.advanced\taak2\taak2\obj\Debug\net6.0-windows\ref\taak2.dll
