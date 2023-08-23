@@ -16,6 +16,10 @@
                             <br>
                             {{$post->message}}
 <br><br>
+                            @if($post->image)
+                                <img src="{{ asset('storage/' . $post->image) }}" alt="Post Image" width="400">
+                            @endif
+
                             @auth
                             @if($post->user_id == Auth::user()->id)
                             <a href="{{ route('posts.edit', $post->id)}}">Edit post</a>

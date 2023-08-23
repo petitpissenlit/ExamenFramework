@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
+use App\Models\FaqQuestion;
+
 
 class AdminController extends Controller
 {
@@ -16,7 +19,7 @@ class AdminController extends Controller
     public function showUser($id)
     {
         $user = User::findOrFail($id);
-        return view('admin.user', compact('user'));
+        return view('users.profile', compact('user'));
     }
 
     public function promoteUser($id)
@@ -35,6 +38,15 @@ class AdminController extends Controller
     $user->save();
 
     return redirect()->route('admin.users')->with('success', 'Gebruiker is niet langer beheerder.');
+}
+
+public function deleteFAQ($id)
+{
+    $question = FaqQuestion::findorFail($id);
+    // Verwijder de FAQ-vraag
+    $question->delete();
+
+    return redirect()->back()->with('success', 'FAQ-vraag succesvol verwijderd.');
 }
 
 }

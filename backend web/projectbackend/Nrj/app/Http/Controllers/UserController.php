@@ -9,6 +9,8 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\DB;
 class UserController extends Controller
 {
     public function profile($name)
@@ -56,19 +58,12 @@ public function update(Request $request, $name)
 {
     $user = User::where('name', $name)->firstOrFail();
 
-    $request->validate([
-        'name' => ['required', 'string', 'max:255', Rule::unique('users')->ignore($user->id)],
-        'password' => ['required', 'string', 'min:6'],
-        'email' => ['required', 'email', Rule::unique('users')->ignore($user->id)],
-        'birthday' => ['required', 'date'],
-        'avatar' => ['nullable', 'image', 'mimes:jpeg,png,jpg,gif', 'max:2048'],
-        'bio' => ['nullable', 'string', 'max:255'],
-    ]);
+    
 
     $user->name = $request->input('name');
     $user->password = Hash::make($request->input('password'));
     $user->email = $request->input('email');
-    $user->birthday = $request->input('birthday');
+    
     $user->bio = $request->input('bio');
 
     if ($request->hasFile('avatar')) {

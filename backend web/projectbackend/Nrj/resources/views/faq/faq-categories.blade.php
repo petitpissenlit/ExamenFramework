@@ -22,6 +22,28 @@
                                         <div class="answer">
                                             {{ $question->answer }}
                                         </div>
+                                        @if (Auth::user()->isAdmin())
+                                            @if ($question->response)
+                                                <div class="response">
+                                                    <strong>Response:</strong><br>
+                                                    {{ $question->response }}
+                                                </div>
+                                            @else
+                                                <form action="{{ route('admin.faq.postResponse', $question->id) }}" method="POST">
+                                                    @csrf
+                                                    <div class="form-group">
+                                                        <label for="response">Response:</label>
+                                                        <textarea class="form-control" name="response" id="response" rows="3" required></textarea>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary">Post Response</button>
+                                                </form>
+                                            @endif
+                                            <form action="{{ route('admin.faq.delete', $question->id) }}" method="POST">
+                                                @csrf
+                                                @method('DELETE')
+                                                <button type="submit">Verwijderen</button>
+                                            </form>
+                                        @endif
                                     </li>
                                 @endforeach
                             </ul>
@@ -35,13 +57,13 @@
     @endif
 </div>
 
-    <script>
-        const faqQuestions = document.querySelectorAll('.faq-question');
+<script>
+    const faqQuestions = document.querySelectorAll('.faq-question');
 
-        faqQuestions.forEach(question => {
-            question.addEventListener('click', () => {
-                question.querySelector('.answer').classList.toggle('show');
-            });
+    faqQuestions.forEach(question => {
+        question.addEventListener('click', () => {
+            question.querySelector('.answer').classList.toggle('show');
         });
-    </script>
+    });
+</script>
 @endsection

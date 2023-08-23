@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\FaqCategory;
 use App\Models\FaqQuestion;
 
+
 class FaqController extends Controller
 {
    public function index()
@@ -13,16 +14,12 @@ class FaqController extends Controller
         // Controleer de admin-status van de gebruiker
         $user = auth()->user(); // Of gebruik een andere manier om de huidige gebruiker op te halen
 
-        if ($user && $user->isAdmin()) {
+        
             // De gebruiker is een admin
             // Voer hier de logica uit om de FAQ-pagina weer te geven
-            $categories = FaqCategory::whereIn('name', ['After-service', 'Vragen over ons'])->get();
+            $categories = FaqCategory::all();
             return view('faq.index', compact('categories'));
-        } else {
-            // De gebruiker is geen admin
-            // Voer hier de logica uit om toegang te beperken of een foutmelding weer te geven
-            return abort(403, 'Unauthorized'); // Toon een 403-foutmelding of een andere gepaste actie
-        }
+        
     }
 
 public function store(Request $request)
@@ -51,7 +48,8 @@ public function store(Request $request)
     $question->category_id =$category->id;
     $question->save();
 
-    return redirect()->route('faq.index')->with('success', 'Vraag en antwoord zijn succesvol opgeslagen.');
+    return redirect()->back()->with('success', 'Vraag- en antwoordpaar is succesvol toegevoegd.');
+
 }
 
 public function showCategories()
@@ -59,6 +57,22 @@ public function showCategories()
     $categories = FaqCategory::all();
 
     return view('faq.faq-categories', compact('categories'));
+}
+
+
+public function postResponse(Request $request, $questionId)
+{
+    $question = FaqQuestion::findOrFail($questionId);
+
+    // Voeg validatie toe aan de response
+    $validatedData = $request->validate([
+        'response' => 'required|min:3',
+    ]);
+
+    $question->response = $request->response;
+    $question->save();
+
+    return redirect()->back()->with('success', 'Response gepost!');
 }
 
 

@@ -34,15 +34,22 @@
                     @csrf
                     <input type="hidden" name="category" value="After-service">
                     <div class="mb-3">
-                        <label for="question">Vraag</label>
+                        <label for="question">Titel</label>
                         <input type="text" name="question" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label for="answer">Antwoord</label>
+                        <label for="answer">Vraag</label>
                         <textarea name="answer" class="form-control" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Opslaan</button>
                 </form>
+
+                <!-- Succesbericht weergeven -->
+                @if(session('success'))
+                    <div class="alert alert-success mt-3">
+                        {{ session('success') }}
+                    </div>
+                @endif
             </div>
 
             <div class="col-md-6">
@@ -73,18 +80,24 @@
                     @csrf
                     <input type="hidden" name="category" value="Vragen over ons">
                     <div class="mb-3">
-                        <label for="question">Vraag</label>
+                        <label for="question">Titel</label>
                         <input type="text" name="question" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label for="answer">Antwoord</label>
+                        <label for="answer">Vraag</label>
                         <textarea name="answer" class="form-control" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Opslaan</button>
                 </form>
+
+                <!-- Succesbericht weergeven -->
+                @if(session('success'))
+                    <div class="alert alert-success mt-3">
+                        {{ session('success') }}
+                    </div>
+                @endif
             </div>
         </div>
     </div>
 
-    
 @endsection

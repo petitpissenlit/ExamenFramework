@@ -36,13 +36,20 @@ class PostController extends Controller
         $validated = $request->validate([
             'title'     => 'required|min:3',
             'content'   => 'required|min:20',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
 
 
-        $post = new post;
+        $post = new Post;
         $post->title = $validated['title'];
         $post->message = $validated['content'];
         $post->user_id = Auth::user()->id;
+        
+        if ($request->hasFile('image')) {
+        $image = $request->file('image');
+        $imagePath = $image->store('post_images', 'public');
+        $post->image = $imagePath;
+        }
         $post->save();
 
         return redirect()->route('index')->with('status','Post added');
@@ -68,10 +75,18 @@ class PostController extends Controller
         $validated = $request->validate([
             'title'     => 'required|min:3',
             'content'   => 'required|min:20',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+
+            
         ]);
 
             $post->title = $validated['title'];
             $post->message = $validated['content'];
+            if ($request->hasFile('image')) {
+                $image = $request->file('image');
+                $imagePath = $image->store('post_images', 'public');
+                $post->image = $imagePath;
+            }
             $post->save();
 
             return redirect()->route('index')->with('status','Post.edit');

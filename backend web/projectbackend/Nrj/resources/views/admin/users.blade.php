@@ -21,6 +21,7 @@
                     @if ($user->is_admin)
                         <form id="demote-form-{{ $user->id }}" action="{{ route('admin.users.demote', $user->id) }}" method="POST">
                             @csrf
+                            @method('DELETE')
                             <input type="hidden" name="_method" value="POST">
                             <button type="submit">Beeindig admin</button>
                         </form>

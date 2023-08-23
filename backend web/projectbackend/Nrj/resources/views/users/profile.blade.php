@@ -54,7 +54,7 @@
                         </button>
 
                         <div class="collapse mt-3" id="profileOptions">
-                            <form action="{{ route('profile.update', ['name' => $user->name]) }}" method="POST">
+                            <form action="{{ route('profile.update', ['name' => $user->name]) }}" method="POST" enctype="multipart/form-data">
                                 @csrf
                                 @method('PUT')
 
@@ -80,6 +80,11 @@
                                     <label for="bio" class="form-label">Over mij</label>
                                     <textarea class="form-control" id="bio" name="bio"
                                         required>{{ $user->bio }}</textarea>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="avatar" class="form-label">Avatar</label>
+                                    <input type="file" class="form-control" id="avatar" name="avatar">
                                 </div>
 
                                 <button type="submit" class="btn btn-primary">Opslaan</button>

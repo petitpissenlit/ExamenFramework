@@ -33,10 +33,25 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('contact.store') }}">
+                                Contact
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            @if (Auth::check() && Auth::user()->is_admin)
+                            <a class="nav-link" href="{{ route('contact.admin') }}">Contactbeheer</a>
+                            @endif
+                        </li>
+
+                        
                 @auth
                 <li class="nav-item">
+                     @if (Auth::check() && Auth::user()->is_admin)
                 <a class="nav-link"
                  href="{{route('posts.create')}}">New Post</a>
+                 @endif
                 @endauth
 
                     </ul>

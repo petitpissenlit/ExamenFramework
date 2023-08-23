@@ -8,7 +8,7 @@
                 <div class="card-header">New Post</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('posts.store') }}">
+                    <form method="POST" action="{{ route('posts.store') }}"enctype="multipart/form-data">
                         @csrf
 
                         <div class="row mb-3">
@@ -32,6 +32,21 @@
                                 <textarea name="content" required>{{ old('content')}}</textarea>
 
                                 @error('content')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+
+                        <div class="row mb-3">
+                            <label for="image" class="col-md-4 col-form-label text-md-end">Image</label>
+
+                            <div class="col-md-6">
+                                <input id="image" type="file" class="form-control @error('image') is-invalid @enderror" name="image">
+
+                                @error('image')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
